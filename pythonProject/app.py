@@ -3,7 +3,6 @@ from wtforms import Form, TextAreaField, validators
 import os
 import pickle
 import numpy as np
-import scipy
 app = Flask(__name__)
 
 dir = os.path.dirname(__file__)
