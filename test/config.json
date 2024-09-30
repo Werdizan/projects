@@ -1,0 +1,18 @@
+{
+    "source_db": {
+        "host": "source_host",
+        "dbname": "source_dbname",
+        "user": "source_user",
+        "password": "source_password"
+    },
+    "target_db": {
+        "host": "target_host",
+        "dbname": "target_dbname",
+        "user": "target_user",
+        "password": "target_password"
+    },
+    "tables": [
+        {"schema": "public", "table": "table1"},
+        {"schema": "public", "table": "table2"}
+    ]
+}
